@@ -1,0 +1,126 @@
+:root {
+    --red-color: #E50914;
+    --black-color: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: var(--black-color);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+
+header div img {
+    margin-left: 3%;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav {
+    margin-right: 10%;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+
+/* Filme/série principal */
+
+.main-movie {
+    background: linear-gradient(rgba(0, 0, 0, .80), rgba(0, 0, 0, .30)100%), url('../img/banners/capa-the-witcher-2.jpg');
+    height: 500px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main-movie .description {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.title-movie {
+    font-size: 50px;
+    margin-top: 5%;
+}
+
+button {
+    border: none;
+    padding: 15px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+button i {
+    margin-right: 5px;
+}
+
+.button-watch {
+    background-color: rgba(255, 255, 255, 1);
+    color: #000
+}
+
+.button-info {
+    background-color: rgba(105, 105, 105, .7);
+    color: #fff;
+}
+
+.button-watch:hover {
+    background-color: #000;
+    color: #fff;
+    transition: .5s ease all;
+}
+
+.button-info:hover {
+    background-color: #fff;
+    color: #000;
+    transition: .5s ease all;
+}
+
+.main-movie .container{ 
+    margin-left: 3%;
+    width: 50%;
+}
+
+section {
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+section h2 {
+    margin-bottom: 1%;
+}
+
+.box-movie {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
